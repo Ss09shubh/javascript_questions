@@ -123,8 +123,8 @@ let data = [
 //   filterByCategory("Electronics"); // Example
 //   searchByName("Laptop");
 //   searchByPartialName("lap");
-  getDistinctData();
-//   countByCategory();
+  // getDistinctData();
+  countByCategory();
 //   sortByName();
 //   groupByCategory();
   
