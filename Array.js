@@ -1,4 +1,4 @@
-//Array is a collection of similar kind of data but in js it provide tomake collection od]f different type of data like string,number,boolean
+//Array is a collection of similar kind of data but in js it provide to make collection of different type of data like string,number,boolean
 
 let name = ["Shubham", 1, true, null];
 // console.log(name);                  //["Shubham",1,true,null];
@@ -56,7 +56,7 @@ let num2 = [11, 21, 31, 41, 51, 61, 71, 81, 91];
 
 
 
-// //Note=> for each method doesnot return array and it also excute within a array if we want to declaire it on another array it will give erro undefine exampl below
+// //Note=> for each method doesnot return array and it also excute within a array if we want to declaire it on another array it will give error undefine exampl below
 // const a = num.forEach((value, index, array) => {
 //     return value;
 // });
