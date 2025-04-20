@@ -303,12 +303,10 @@
 //   }, 1000);
 // }
 
-// ✅ Explanation:
-// var is function-scoped, not block-scoped.
-// All setTimeout callbacks reference the same i variable.
-// When the setTimeout executes after 1 second, the loop has already completed and i has the value 3.
-// So all callbacks log 3.
-
+// 🧠 Explanation:
+// var has function scope, not block scope. This means all three iterations of the loop share the same i variable.
+// The setTimeout callback function is scheduled to run after 1000 milliseconds, but by the time any of them actually run, the for loop has already completed and i is now 3.
+// So when the three callbacks run, they all log the final value of i, which is 3.
 
 
 
